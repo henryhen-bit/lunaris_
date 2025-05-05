@@ -1,3 +1,4 @@
+var noAdmin = ['085255126940', '081348357052', '083838289671', '085867431271', '0887437246652', '089665333697']
 function showForm() {
   document.getElementById("form-section").classList.remove("hidden");
   document.getElementById("member-list").classList.add("hidden");
