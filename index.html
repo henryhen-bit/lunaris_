@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>𝐋 𝐔 𝐍 𝐀 𝐑 𝐈 𝐒  𝐂 𝐈 𝐑 𝐂 𝐋 E</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>𝐋 𝐔 𝐍 𝐀 𝐑 𝐈 𝐒  𝐂 𝐈 𝐑 𝐂 𝐋 E🕷
+    </h1>
+  </header>
+  <section class="menu-grid">
+    <div class="menu-item" onclick="showForm()">📇 Buat Kartu Nama</div>
+    <div class="menu-item" onclick="showMembers()">👥 Daftar Anggota</div>
+  </section>
+  <section id="form-section" class="hidden">
+    <h2>Form Data Anggota</h2>
+    <form id="memberForm">
+      <input type="text" placeholder="Nama Lengkap" id="nama" required />
+      <input type="text" placeholder="Asal Kota" id="askot" required />
+      <input type="number" placeholder="Kelas" id="kelas" required />
+      <input type="number" placeholder="No. WhatsApp" id="whatsapp" required />
+      <input type="file" accept="image/*" id="photo" required />
+      <button type="submit">Buat Kartu</button>
+    </form>
+  </section>
+  <section id="member-list" class="hidden">
+    <h2>Daftar Anggota</h2>
+    <ul id="list"></ul>
+  </section>
+  <footer>
+    <p>&copy; 2025 𝐋 𝐔 𝐍 𝐀 𝐑 𝐈 𝐒  𝐂 𝐈 𝐑 𝐂 𝐋 E🕷
+    </p>
+  </footer>
+  <script src="index.js"></script>
+  <script src="cardName.js"></script>
+  <script src="suratKeanggotaan.js"></script>
+</body>
+</html>
